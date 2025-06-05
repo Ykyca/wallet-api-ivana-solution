@@ -1,0 +1,16 @@
+{
+  "name": "wallet-api-app",
+  "version": "1.0.0",
+  "description": "Creating a simple server with a simplest api implementation for testing purposes",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "node server.js"
+  },
+  "author": "Ivana Radovanovic",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^11.1.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "walletapi",
+  "version": "1.0.0",
+  "description": "Logifuture assignment Senior AQA Engineer BE",
+  "main": "index.js",
+  "scripts": {
+    "test:all:headless": "cypress run",
+    "test:insufficient-funds:headless": "cypress run --spec cypress/e2e/wallet-api-tests/invalid-transactions/insufficient-funds.cy.js",
+    "test:negative-amount-transaction:headless": "cypress run --spec cypress/e2e/wallet-api-tests/invalid-transactions/negative-amount-transaction.cy.js",
+    "test:zero-amount-transaction:headless": "cypress run --spec cypress/e2e/wallet-api-tests/invalid-transactions/zero-amount-transaction.cy.js",
+    "test:daily-limit:headless": "cypress run --spec cypress/e2e/wallet-api-tests/third-party/daily-limit.cy.js",
+    "test:succ-response-timeout:headless": "cypress run --spec cypress/e2e/wallet-api-tests/third-party/succ-response-timeout.cy.js",
+    "test:add-funds:headless": "cypress run --spec cypress/e2e/wallet-api-tests/valid-transactions/add-funds.cy.js",
+    "test:withdraw-funds:headless": "cypress run --spec cypress/e2e/wallet-api-tests/valid-transactions/withdraw-funds.cy.js",
+    "lint": "eslint ."
+  },
+  "author": "Ivana Radovanovic",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "cypress": "^14.4.0",
+    "cypress-terminal-report": "^7.2.0",
+    "eslint": "^9.28.0",
+    "globals": "^16.2.0"
+  }
+}

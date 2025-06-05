@@ -1,0 +1,9 @@
+# Node
+**/node_modules/
+
+# Testing
+wallet-api-tests/cypress/screenshots/
+wallet-api-tests/cypress/videos/
+
+# System
+.vscode/
