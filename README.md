@@ -14,10 +14,6 @@ For detailed setup and usage instructions, please refer to the `README.md` files
 
 ---
 
-Sure! Here’s a simple **Cloning the Repository** section you can add to the root README:
-
----
-
 ## Cloning the Repository
 
 If you haven’t cloned the project yet, run the following command to clone it locally:
